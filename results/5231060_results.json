@@ -1,0 +1,32 @@
+{
+  "execution_id": "01JWX7G4QCWR4DNQ4HWHHT4T17",
+  "query_id": 5231060,
+  "is_execution_finished": true,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2025-06-04T10:23:57.164656Z",
+  "expires_at": "2025-09-02T10:24:29.944218Z",
+  "execution_started_at": "2025-06-04T10:23:59.876961Z",
+  "execution_ended_at": "2025-06-04T10:24:29.944216Z",
+  "result": {
+    "rows": [],
+    "metadata": {
+      "column_names": [
+        "dt",
+        "asset",
+        "net_amount"
+      ],
+      "column_types": [
+        "timestamp(3) with time zone",
+        "varchar(4)",
+        "double"
+      ],
+      "row_count": 0,
+      "result_set_bytes": 0,
+      "total_row_count": 0,
+      "total_result_set_bytes": 0,
+      "datapoint_count": 0,
+      "pending_time_millis": 2712,
+      "execution_time_millis": 30067
+    }
+  }
+}
