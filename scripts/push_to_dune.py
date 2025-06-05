@@ -20,9 +20,10 @@ with open(queries_yml, 'r', encoding='utf-8') as file:
 
 # Extract the query_ids from the data
 query_ids = [id for id in data['query_ids']]
-
+print('QUERY IDS: {}\n'.format(query_ids))
 for id in query_ids:
-    query = dune.get_query(id)
+    print('id: {}\n'.format(id))
+    query = dune.get_query(int(id))
     print('PROCESSING: query {}, {}'.format(query.base.query_id, query.base.name))
 
     # Check if query file exists in /queries folder
